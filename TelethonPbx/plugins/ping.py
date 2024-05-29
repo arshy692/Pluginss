@@ -20,7 +20,7 @@ ping_txt = """
     ➤ <i>𝐎ᴡɴᴇʀ •</i> {}
     
           ╔══════════════╗
-                <b><i>✬ <a href='https://t.me/ll_THE_BAD_BOT_ll'> 🇨🇦  𝗣𝗕𝗫  🌸 </a> ✬</i></b>
+                <b><i>✬ <a href='https://telegra.ph//file/c0a3d3b961320c13c26ef.jpg'> 🇨🇦  𝗣𝗕𝗫  🌸 </a> ✬</i></b>
           ╚══════════════╝
     ┗━━━━━━━━━🧸━━━━━━━━┛
     """
@@ -38,7 +38,7 @@ async def pong(event):
                 pic_list.append(c)
         PIC = choice(pic_list)
     else:
-        PIC = "https://te.legra.ph/file/3187f598c0e978e3b4441.jpg"
+        PIC = "https://telegra.ph//file/1a498ca9dcb606a0dd180.jpg"
     Pbx = await eor(event, "`·.·★ ᴘʙx ★·.·´")
     II_BAD_BBY_II, Pbx_USER, Pbx_mention = await client_id(event, is_html=True)
     uptime = await get_time((time.time() - StartTime))
@@ -74,7 +74,7 @@ async def is_limited(event):
 
 @Pbx_cmd(pattern="kickme$")
 async def leave(event):
-    Pbx = await eor(event, "🥹 𝐆ᴏᴏᴅ 𝐁ʏᴇ  [🕊️⃝‌ᴘʙx ❤️ᥫ᭡፝֟፝֟](https://t.me/ll_THE_BAD_BOT_ll) 🥱")
+    Pbx = await eor(event, "🥹 𝐆ᴏᴏᴅ 𝐁ʏᴇ  [🕊️⃝‌ᴘʙx ❤️ᥫ᭡፝֟፝֟](@arshuu_69) 🥱")
     time.sleep(1)
     if "-" in str(event.chat_id):
         await event.client(LeaveChannelRequest(event.chat_id))
