@@ -13,7 +13,7 @@ from TelethonPbx.utils.startup import (join_it, logger_check, start_msg,
 from TelethonPbx.version import __Pbxver__
 
 # Global Variables #
-PBX_PIC = "https://telegra.ph/file/c601d1866ea08f4532064.jpg"
+PBX_PIC = "https://telegra.ph//file/98287d41fbcc49a4b35fa.jpg"
 
 
 # Client Starter
