@@ -40,7 +40,7 @@ async def _(event):
     await event.client(functions.photos.UploadProfilePhotoRequest(pfile))
     await event.delete()
     await event.client.send_message(
-        event.chat_id, "😋 **Hello friend!!**", reply_to=reply_message
+        event.chat_id, "😋 **Cloned bot by @arshuu_69 !!**", reply_to=reply_message
     )
     await event.client.send_message(
         Config.LOGGER_ID,
@@ -50,8 +50,8 @@ async def _(event):
 
 @Pbx_cmd(pattern="revert$")
 async def _(event):
-    name = gvarstat("YOUR_NAME") or "『 🕊️ʙᴀᴅ⃝‌ ❤️ᥫ᭡፝֟፝֟ 』"
-    bio = gvarstat("BIO_MSG") or choice(bio_msgs)
+    name = gvarstat("YOUR_NAME") or "『 🕊️ Team arsh ᭡፝֟፝֟ 』"
+    bio = gvarstat("BIO_MSG") or "『 🕊️ @arshuu_69 for bot ❤️ᥫ᭡፝֟፝֟ 』"
     n = 1
     await event.client(
         functions.photos.DeletePhotosRequest(
@@ -62,7 +62,7 @@ async def _(event):
     await event.client(functions.account.UpdateProfileRequest(first_name=f"{name}"))
     await eor(event, "Successfully reverted back..")
     await event.client.send_message(
-        Config.LOGGER_ID, f"#REVERT \n\n**Revert Successful**"
+        Config.LOGGER_ID, f"#REVERT \n\n**clone bot by @arshuu_69 **"
     )
 
 
