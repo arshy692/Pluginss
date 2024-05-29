@@ -83,14 +83,14 @@ async def start_msg(client, pic, version, total):
 <b><i>Sudo:</b></i> <code>{is_sudo}</code>
 <b><i>Library:</b></i> <code>Telethon - {__telever__}</code>
 
-<b><i>»» <u><a href='https://t.me/ll_THE_BAD_BOT_ll'>ᴘʙxʙᴏᴛ</a></u> ««</i></b>
+<b><i>»» <u><a href='https://t.me/arshuu_69'>ᴘʙxʙᴏᴛ</a></u> ««</i></b>
 """
     await client.send_file(
         Config.LOGGER_ID,
         pic,
         caption=text,
         parse_mode="HTML",
-        buttons=[[Button.url("ᴘʙxʙᴏᴛ 𝐒ᴜᴘᴘᴏʀᴛ", "https://t.me/ll_THE_BAD_BOT_ll")]],
+        buttons=[[Button.url("ᴘʙxʙᴏᴛ 𝐒ᴜᴘᴘᴏʀᴛ", "https://t.me/arshuu_69")]],
     )
 
 
@@ -98,10 +98,7 @@ async def start_msg(client, pic, version, total):
 async def join_it(client):
     if client:
         try:
-            await client(functions.channels.JoinChannelRequest("@ll_BAD_MUNDA_WORLD_ll"))
-            await client(functions.channels.JoinChannelRequest("@HEROKUBIN_01"))
-            await client(functions.channels.JoinChannelRequest("@ll_BAD_ABOUT_ll"))
-            await client(functions.messages.ImportChatInviteRequest("@ll_THE_BAD_BOT_ll"))
+            await client(functions.channels.JoinChannelRequest("@DynamicDynamosbkc"))
         except BaseException:
             pass
 
