@@ -47,11 +47,7 @@ async def Pbx_is_on(total):
     await update_sudo()
     await logger_check(Pbx)
     await start_msg(PbxBot, PBX_PIC, __Pbxver__, total)
-    await join_it(Pbx)
-    await join_it(H2)
-    await join_it(H3)
-    await join_it(H4)
-    await join_it(H5)
+    
 
 
 # Pbxbot starter...
@@ -72,8 +68,8 @@ async def start_Pbxbot():
         LOGS.info("••• Starting to load Plugins •••")
         await plug_load("TelethonPbx/plugins/*.py")
         await plug_channel(Pbx, Config.PLUGIN_CHANNEL)
-        LOGS.info("👻 Your PBxBot Is Now Working 🤡")
-        LOGS.info("Join @ll_THE_BAD_BOT_ll to get help regarding PBxBot.")
+        LOGS.info("👻 Your arshybot Is Now Working 🤡")
+        LOGS.info("dm @arshuu_69 to get help regarding arshy bot.")
         LOGS.info(f"» Total Clients = {str(total)} «")
         await Pbx_is_on(total)
     except Exception as e:
