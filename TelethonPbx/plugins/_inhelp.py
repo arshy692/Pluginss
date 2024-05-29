@@ -215,26 +215,26 @@ if Config.BOT_USERNAME and tbot:
                 title="Repository",
                 text=f"**👻 🕊️⃝‌ᴘʙx ❤️ᥫ᭡፝֟፝֟ 👻 **",
                 buttons=[
-                    [Button.url("💫 𝐑ᴇᴘᴏ ✨", "https://github.com/Badhacker98/PbXbot/fork")],
-                    [Button.url("𝐏ʙx 𝐒ᴜᴘᴘᴏʀᴛ", "https://t.me/ll_THE_BAD_BOT_ll")],
+                    [Button.url("💫 𝐑ᴇᴘᴏ ✨", "https://t.me/DynamicDynamosbkc")],
+                    [Button.url("𝐏ʙx 𝐒ᴜᴘᴘᴏʀᴛ", "https://t.me/arshuu_69")],
                 ],
             )
 
         else:
             result = builder.article(
-                "@ll_THE_BAD_BOT_ll",
-                text="""**Hey! This is [🕊️⃝‌ٖٖᴘʙx ❤️ᥫ᭡፝֟፝֟](https://t.me/ll_THE_BAD_BOT_ll) \nYou can know more about me from the links given below 👇**""",
+                "@arshuu_69",
+                text="""**Hey! This is [🕊️⃝‌ٖٖᴘʙx ❤️ᥫ᭡፝֟፝֟](@arshuu_69) \nYou can know more about me from the links given below 👇**""",
                 buttons=[
                     [
-                        Button.url("• Updates •", "https://t.me/ll_THE_BAD_BOT_ll"),
-                        Button.url("• Chat •", "https://t.me/II_CHAT_HUB_II"),
+                        Button.url("• Updates •", "@arshuu_69"),
+                        Button.url("• Chat •", "https://t.me/DynamicDynamosbkc"),
                     ],
                     [
-                        Button.url("• Repo •", "https://github.com/Badhacker98/PbXbot/fork"),
-                        Button.url("• Docs •", "https://Pbxbot.tech"),
+                        Button.url("• Repo •", "@arshuu_69"),
+                        Button.url("• Docs •", "https://t.me/DynamicDynamosbkc"),
                     ],
                     [
-                        Button.url("◈ PbxBot Network ◈", "https://t.me/ll_THE_BAD_BOT_ll"),
+                        Button.url("◈ PbxBot Network ◈", "@arshuu_69"),
                     ],
                 ],
                 link_preview=False,
@@ -311,7 +311,7 @@ if Config.BOT_USERNAME and tbot:
             if a:
                 help_pic = a.split(" ")[0]
             else:
-                help_pic = "https://telegra.ph/file/4ab474cb621c444c697ae.jpg"
+                help_pic = "https://telegra.ph//file/1a498ca9dcb606a0dd180.jpg"
 
             if help_pic == "DISABLE":
                 await event.edit(
@@ -344,7 +344,7 @@ if Config.BOT_USERNAME and tbot:
                 link_preview=False,
             )
         else:
-            await event.answer("Hello! This help menu is not for you, you can make yourself a PbXBot and use your bot. Go to @ll_THE_BAD_BOT_ll for more info.", cache_time=0, alert=True)
+            await event.answer("Hello! This help menu is not for you, you can make yourself a PbXBot and use your bot. Go to @arshuu_69 for more info.", cache_time=0, alert=True)
             
     @tbot.on(CallbackQuery(data=compile(b"send\((.+?)\)")))
     async def send(event):
@@ -381,7 +381,7 @@ if Config.BOT_USERNAME and tbot:
             )
         else:
             return await event.answer(
-                "Hello! This help menu is not for you, you can make yourself a PbxBot and use your bot. Go to @ll_THE_BAD_BOT_ll for more info.",
+                "Hello! This help menu is not for you, you can make yourself a PbxBot and use your bot. dm @arshuu_69 for more info.",
                 cache_time=0,
                 alert=True,
             )
