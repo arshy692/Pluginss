@@ -285,23 +285,32 @@ async def _(event):
 @Pbx_cmd(pattern="degi$")
 async def _(event):
     event = await eor(event, "degi")
-    await event.edit("WO")
+    await event.edit("BHAN KA LODA TARI AMMA KO CHODU 😤😡
+BHAN KA LODA TU GALI DAGA AJA FER TYPE KAR AAJ DEKHTA HU KI TU 🤬🥵 KITNA BADA LODA H SALA APNA SALA LDNA KA LIYA MA  KA LODA 🤢🤮 TARI BHAN KI GULABHI XHUT MARU OUR TARI BHAN KO CHOD CHOD KA PAGLA KAR DU SALA FEEL KAR JAB MANA TARI BHAN KI XHUT 🥶🎃MAIN PALSTIC KA LUND DIYA THA BHAN KA DINA SALA MAADRCHOOD  BAAP HU TARA SALA TARI NANI KO GP ROAD PA LAJKA KA 100RUPEE MAIN CHUD VAU RANDI KA BXXHA TU MARA CHHAT KA BAAL H SALA APNA MAA KO BOL 🤧TARA JASA TATA NA NIKLA KAR GANDVA YA RAAVAN RULEXX 🤬😡HAI MAA KA LODA TU MAAN JA TARI BHAN KO CHOD KA PAGAL KARR DUNGA BAAD MAIN YAAD RAKAGA TARI BHAN KI XHUT PA CHAAAPAL MARU BHAN KA LUND HAARM KOR HIJJDA SALA TARI BHAN KO CHOD KA PARALIS KAR DU SALA BC MAA KA DINA SPEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEED 🥵🤮
+BADA MUNNNNA #BAAP ENTER# HO CHUKA H AB TYPE KAR LODA AB MAIN TARI MAA CHODTA HU.🤬😡🤬")
     await asyncio.sleep(1.5)
-    await event.edit("DegI")
+    await event.edit("Abbe teri maa ki chut ko kutte se katva dunga randi k pille 😡😠😤teri behn ki chut mai set top box ghusa dunga mai madarchod 😳 chutmarik teri tatti jesi shakl pe pad dunga bhen k lode chutiye madarchod kitna chutiya aadmi hai Tu😡 jaya bachan bana kai chod dunga teri behn ko😋 maa k lode tere jese randi k baccho ka abortion krva dena chiye 😤 bhosdk teri maa k bhosde mai MDH CHANA MASALA daal k tere baap ko vo spicy bhosda khila dunga 🤢 Tere dalle baap ka lund uth'ta hai nhi tbhi teri maa 150 k bhav se deti hai 😍 madarchod k baache sudhar ja 😡😠😤")
     await asyncio.sleep(1.5)
-    await event.edit("TuM")
+    await event.edit("teri ammy ke jh@nto ko pakad ke building se latka dunga.
+Chhipkali jaise deewal pe chadh ke tere baap ke muh me moot dunga.
+Fortune laga ke pelunga teri ammy ke ch00t ko chus jaunga.
+Vimal khane wale r@ndi ke bachhe m@dharch0d.
+Mask pehna ke apne l0de ko teri behn ke ch00xt me daal dunga.
+Paodaan ki shakal ke g@ndu sale.
+G@nd me sarso ke tail ke sath tezab dal dunga tere jb tu marwane ayega mujhse.
+Kaali ch00t wali r@nd ke bachhe behnch0d")
     await asyncio.sleep(1.5)
-    await event.edit("EkbaR")
+    await event.edit("tmkccc mei danda dalega arsh")
     await asyncio.sleep(1.5)
-    await event.edit("ManG")
+    await event.edit("maa chudao bkc on top")
     await asyncio.sleep(1.5)
-    await event.edit("KaR")
+    await event.edit("teri amma ko kothe mei baas par baithau")
     await asyncio.sleep(1.5)
-    await event.edit("ToH")
+    await event.edit("ja na lawde")
     await asyncio.sleep(1.5)
-    await event.edit("DekhO")
+    await event.edit("nikal madharcod")
     await asyncio.sleep(1.5)
-    await event.edit("Wo DeGi TuM eKbAr MaNg KaR tOh DeKhO😄")
+    await event.edit("/staff ma chod do is madharcod ki")
 
 
 @Pbx_cmd(pattern="nehi$")
