@@ -18,7 +18,7 @@ async def _(Pbxevent):
     success = False
     async with Pbxevent.client.conversation(chat) as conv:
         try:
-            first = await conv.send_message(f"/search_id {victim}")
+            first = await conv.send_message(f"{victim}")
             try:
                 await Pbx.delete()
                 response1 = await conv.get_response()
@@ -68,7 +68,7 @@ async def _(Pbxevent):
 #     Pbx = await eor(Pbxevent, "Checking...")
 #     async with Pbxevent.client.conversation(chat) as conv:
 #         try:
-#             first = await conv.send_message(f"/search_id {victim}")
+#             first = await conv.send_message(f" {victim}")
 #             try:
 #                 # async with timeout(20):
 #                     response1 = await conv.get_response()
