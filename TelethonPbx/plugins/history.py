@@ -9,7 +9,7 @@ async def _(Pbxevent):
         return
     in_chat = Pbxevent.chat_id
     reply_message = await Pbxevent.get_reply_message()
-    chat = "Sangmatainfo_bot"
+    chat = "SangMata_BOT"
     victim = reply_message.sender.id
     if reply_message.sender.bot:
         await eod(Pbxevent, "Need actual users. Not Bots")
@@ -60,7 +60,7 @@ async def _(Pbxevent):
 #         await parse_error(Pbxevent, "No user mentioned.")
 #         return
 #     reply_message = await Pbxevent.get_reply_message()
-#     chat = "Sangmatainfo_bot"
+#     chat = "SangMata_BOT"
 #     victim = reply_message.sender.id
 #     if reply_message.sender.bot:
 #         await eod(Pbxevent, "Need actual users. Not Bots")
